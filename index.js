@@ -4,12 +4,7 @@ const
   app = express(),
   port = process.env.PORT || 3000;
 
-
 app.get('/', (req, res) => {
-  res.send("<b> Find your IP address, System Language and Operating System at </b> <a href='whoami'> /whoami </a>");
-});
-
-app.get('/whoami', (req, res) => {
   let ip = req.headers['x-forwarded-for'] ||
      req.connection.remoteAddress ||
      req.socket.remoteAddress ||
