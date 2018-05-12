@@ -1,3 +1,3 @@
 # Header Parser Microservice
 
-Takes a URL timestamp parameter (Unix or Natural Language Date) and returns an object with a formatted & converted form of the timestamp. More information at the deployed version at [Heroku](https://blooming-tundra-28640.herokuapp.com/).
+Returns the IP address, Browser Language and Operating System of the user connecting to the site. You can find the deployed version at [Heroku](https://thawing-inlet-37919.herokuapp.com/).
